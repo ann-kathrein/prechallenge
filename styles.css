@@ -1,18 +1,50 @@
-    body{
-            background-color: mistyrose;
+   body{
+        background-color: #F1F1F6;
+        font-family:sans-serif;
+        margin: 0;
         }
     h1{
-            color: palevioletred;
+        color: #E89DA2;
+        font-size: 40;
+        font-family:sans-serif;
+        margin-top: 0;
         }
     h3{
-        color: #66BFBF;
-    
+        color: #FFB6B9;
+        font-size: 20;
+        font-family:sans-serif;
         }
     hr{
-            border-style: none;
-            border-top-style: dotted;
-            border-color: lightgrey;
-            border-width: 5px;
-            width: 5%;
+        border-style: none;
+        border-top-style: dotted;
+        border-color: 8AC6D1;
+        border-width: 5px;
+        width: 5%;
         }
+
+    a{ 
+        text-decoration: none;
+        color: #347474;
+        }
+    a:hover{ 
+        text-decoration: none;
+        color: #347474;
+        font-size: 20;
+        }
+
+    div{
+        background-color: white;
+        
+        }
+
+
+#headcolor {
+    color: #E89DA2;
+}
+#numbercolor{
+    color:#D15A7C;
+}
+#check{
+    color:#7FCD91
+}
    
