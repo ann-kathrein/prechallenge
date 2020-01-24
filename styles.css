@@ -41,11 +41,6 @@
         }
 
 
-.ol{
-    column-count: 2;
-    column-gap: 10px;
-}
-
 .topnav{
   background-color: #F1F1F6;
   overflow: hidden;
@@ -84,8 +79,13 @@
     margin: 0 auto;
 }
 
-.table{
-    margin:0 auto;
+
+.ol{
+    margin-left: 275px;
+    column-count: 2;
+    column-gap: 0px;
+   
+
 }
 
 .table tr:hover{
