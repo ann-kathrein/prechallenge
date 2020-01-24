@@ -83,14 +83,18 @@
 .ol{
     margin-left: 275px;
     column-count: 2;
-    column-gap: 0px;
-   
-
+    column-gap: 0px; 
 }
 
+.table{
+    margin: 0 auto;
+    border-color: #1D4D4F;
+    border-width: 2px;
+    border-style: solid;
+}
 .table tr:hover{
     background-color: white;
-    }
+}
 
 .centeredtext{
     text-align: center;
