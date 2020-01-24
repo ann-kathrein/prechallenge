@@ -1,50 +1,130 @@
    body{
         background-color: #F1F1F6;
-        font-family:sans-serif;
+        font-family:'Open Sans', sans-serif;
         margin: 0;
-        }
-    h1{
-        color: #E89DA2;
-        font-size: 40;
-        font-family:sans-serif;
-        margin-top: 0;
-        }
-    h3{
-        color: #FFB6B9;
-        font-size: 20;
-        font-family:sans-serif;
-        }
-    hr{
-        border-style: none;
-        border-top-style: dotted;
-        border-color: 8AC6D1;
-        border-width: 5px;
-        width: 5%;
-        }
-
-    a{ 
-        text-decoration: none;
-        color: #347474;
-        }
-    a:hover{ 
-        text-decoration: none;
-        color: #347474;
-        font-size: 20;
         }
 
     div{
         background-color: white;
-        
+        padding: 20 50 20 50;
+        }
+
+    h1{
+        color: #1D4D4F;
+        font-size: 50px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0;
+        }
+
+    h3{
+        color: #357376;
+        font-size: 1.25rem;
+        font-family:'Raleway',sans-serif;
+        }
+
+    hr{
+        border-top-style: inherit;
+        border-color: #E89DA2;
+        border-width: 3px;
+        width: 10%;
+        padding: 0px;
+        border-left: 0px;
+        }
+
+    a{ 
+        text-decoration: none;
+        color: #E89DA2;
+        }
+    a:hover{ 
+        text-decoration: underline;
+        color: #347474;
         }
 
 
-#headcolor {
-    color: #E89DA2;
+.ol{
+    column-count: 2;
+    column-gap: 10px;
 }
+
+.topnav{
+  background-color: #F1F1F6;
+  overflow: hidden;
+}
+
+.topnav a{
+  float: right;
+  color: #347474;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.topnav a:hover {
+  background-color: #6BA8A9;
+    color: white
+}
+
+
+.topnav a.active {
+  background-color: #E89DA2;
+  color: white;
+}
+
+.headpic{
+    position: relative;
+    top: 0; 
+    left: 0;
+    right: 0;
+   background-size: cover; 
+   width: 100vw;
+   height: 75vh;
+    }
+
+.centeredtable{
+    margin: 0 auto;
+}
+
+.table{
+    margin:0 auto;
+}
+
+.table tr:hover{
+    background-color: white;
+    }
+
+.centeredtext{
+    text-align: center;
+}
+
+.right{
+    margin-left: 800px;
+}
+
+.righttwo{
+    margin-left: 150px;
+}
+
+.anotherback{
+    background-color: #F1F1F6;
+}
+
+
+.hr {
+    margin: 0;
+    padding: 1px;
+    }
+
+
+.footer{
+    background-color: #1D4D4F;
+    color: white;
+    }
+
+
 #numbercolor{
-    color:#D15A7C;
+    color:#357376;
 }
 #check{
-    color:#7FCD91
+    text-align: center;
+    color:#E89DA2;
 }
-   
